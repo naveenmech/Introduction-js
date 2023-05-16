@@ -35,15 +35,15 @@
 // console.log( typeof island);
 // console.log(population);
 
-// let population = 5 + 1;
+let population = 10 + 13;
 
 // population++;
-// const country = "India";
-// const continent = "Asis";
+const country = "India";
+const continent = "Asis";
 // console.log(population);
 // console.log(population / 2);
 // let finlandPopulation = 6;
-// let language = "Tamil";
+let language = "Tamil";
 // const description =
 //   "Portugal is in Europe, and its 11 million people speak Portuguese";
 // console.log(population < finlandPopulation);
@@ -59,22 +59,22 @@
 //   `.`;
 // console.log(description1);
 
-// const description =`${country} is in ${continent} and its ${population} million people speak ${language}.`
+const description = `${country} is in ${continent} and its ${population} million people speak ${language}.`;
 // console.log(description)
 
 // coding challange #1
 
-// let markWeight1 = 78;
-// let markTall1 = 1.69;
+let markWeight1 = 78;
+let markTall1 = 1.69;
 
-// let johnWeight1 = 92;
-// let johnTall1 = 1.95;
+let johnWeight1 = 92;
+let johnTall1 = 1.95;
 
-// let markWeight2 = 95;
-// let markTall2 = 1.88;
+let markWeight2 = 95;
+let markTall2 = 1.88;
 
-// let johnWeight2 = 85;
-// let johnTall2 = 1.76;
+let johnWeight2 = 85;
+let johnTall2 = 1.76;
 
 // const markBMI = markWeight1 / markTall1 ** 2;
 // const johnBMI = johnWeight1 / johnTall1 ** 2;
@@ -88,4 +88,40 @@
 
 // String the Template Literals
 
+// if(population >33){
+//   console.log(description)
+// }
+// else{
+//   console.log(Error)
+// }
 
+// if (population < 33) {
+//   console.log(description);
+// } else {
+//   console.log(Error);
+// }
+
+// coding challange 2
+
+
+const massMark= 78;
+const massJohn = 92;
+const heightMark=1.69;
+const heightJohn=1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIjohn = massJohn/ heightJohn ** 2;
+
+
+//  if(BMIMark>BMIjohn){
+//   console.log(`Mark's BMI ${BMIMark} is higher than John's BMI ${BMIjohn}!`)
+//  }
+//  else{
+//   console.log(`John's BMI ${BMIjohn} is higher than Mark's BMI ${BMIMark}!`)
+//  }
+
+ if (BMIMark < BMIjohn) {
+   console.log(`Mark's BMI ${BMIMark} is higher than John's BMI ${BMIjohn}!`);
+ } else {
+   console.log(`John's BMI ${BMIjohn} is Lesser than Mark's BMI ${BMIMark}!`);
+ }
