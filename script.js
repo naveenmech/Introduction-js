@@ -26,18 +26,22 @@
 // const country = "India";
 // const continent = "Asia";
 // const island = true;
+
 // let population = 10;
+
 // console.log(language)
 // console.log(country);
+
 // console.log( typeof island);
 // console.log(population);
 
 // let population = 5 + 1;
+
 // population++;
 // const country = "India";
 // const continent = "Asis";
-// console.log(population / 2);
 // console.log(population);
+// console.log(population / 2);
 // let finlandPopulation = 6;
 // let language = "Tamil";
 // const description =
@@ -53,7 +57,10 @@
 //   ` million people speak ` +
 //   language +
 //   `.`;
-// console.log(description1)
+// console.log(description1);
+
+// const description =`${country} is in ${continent} and its ${population} million people speak ${language}.`
+// console.log(description)
 
 // coding challange #1
 
@@ -78,5 +85,7 @@
 // console.log(johnBMI);
 // console.log(BMI1);
 // console.log(BMI2);
+
+// String the Template Literals
 
 
